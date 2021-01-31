@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300;400&display=swap');
+body{
+    background-color: rgba(212, 45, 48, 0.959);
+}
+.header-container{
+    height: 400px;
+    background-image: url(../img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#main-content,footer{
+    border-top:5px solid rgba(255, 203, 23) !important;
+}
+.titile{
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    color:rgba(212, 45, 48, 0.959);
+    width: 90%;
+    height: 25%;
+    border-width: 2px !important;
+}
+
+#bgm-player{
+    display:none;
+}
+
+.sub-title{
+    font-family: 'Pacifico', cursive;
+    color:rgba(255, 203, 23);
+}
+.sub-title-size{
+    font-size: 40px;
+}
+
+.primary-text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:snow;
+}
+
+.link-font{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    transition: color 1s ease-out;
+}
+.link-font:hover{
+    color:rgba(255, 203, 23);
+}
+
+.left-menu-container{
+    background-image: url(../img/left-menu.jpg);
+    background-position: 0 55%;
+    background-size: cover;
+
+}
+
+.left-menu{
+    width: 62%;
+    height: 55%;
+}
+
+.food-card{
+    border:2px solid rgba(255, 203, 23) !important;
+}
+
+
+.right-menu-container{
+    background-image: url(../img/right-menu.jpg);
+    background-position: 0 55%;
+    background-size: cover;
+}
+
+@media only screen and (max-width:1100px){
+    .titile{
+        font-size: 30px;
+        height: 12%;
+    }
+    .left-menu{
+        width: 100%;
+        height: 300px;
+    }
+    .sub-title-size{
+        font-size: 22px;
+    }
+}
